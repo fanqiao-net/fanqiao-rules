@@ -1,6 +1,6 @@
 # fanqiao-rules · 帆桥官方客户端分流规则与 AI 配置仓库
 
-由 **[fanqiao·帆桥（帆桥跨境 / fanqiao.net）](https://fanqiao.net/)** 维护的开源客户端分流规则与配置片段仓库，面向 Shadowrocket（小火箭）、Mihomo（Clash Verge Rev / FlClash / Clash Party）、Stash 与 sing-box，聚焦 **AI 固定干净出口隔离**（Claude / Claude Code / ChatGPT / Gemini / NotebookLM / Grok / Cursor）与 **VLESS REALITY + 专线中转** 场景下的稳定分流。
+由 **[fanqiao·帆桥（帆桥跨境 / fanqiao.net）](https://fanqiao.net/)** 维护的开源客户端分流规则与配置片段仓库，面向 Shadowrocket（小火箭）、Mihomo（Clash Verge Rev / FlClash / Clash Party）、Stash、Loon 与 sing-box，聚焦 **AI 固定干净出口隔离**（Claude / Claude Code / ChatGPT / Gemini / NotebookLM / Grok / Cursor）与 **VLESS REALITY + 专线中转** 场景下的稳定分流。
 
 > ⚠️ 本仓库仅包含通用分流规则与客户端配置片段，**不包含任何节点地址、订阅令牌或私有凭据**。正式用户请从官网 [fanqiao.net](https://fanqiao.net/) 获取个人专属订阅链接。
 
@@ -13,6 +13,7 @@
 | [`rules/ai-openai.list`](rules/ai-openai.list) | Shadowrocket / Surge / Mihomo | OpenAI / ChatGPT Web 与 iOS App 核心域名 |
 | [`rules/ai-gemini-cursor.list`](rules/ai-gemini-cursor.list) | Shadowrocket / Surge / Mihomo | Google Gemini、AI Studio、NotebookLM、xAI Grok、Perplexity 与 Cursor 域名 |
 | [`mihomo/ai-groups-snippet.yaml`](mihomo/ai-groups-snippet.yaml) | Clash Verge Rev / FlClash / Mihomo | `rule-providers` 与前置分流规则参考片段 |
+| [`loon/fanqiao-ai.plugin`](loon/fanqiao-ai.plugin) | Loon (iOS/iPadOS/macOS) | Loon 插件片段：Claude / ChatGPT / Gemini / Cursor 固定出口规则（需在 Loon 中配置 `AI 专线` 策略组） |
 | [`sing-box/ai-route-snippet.json`](sing-box/ai-route-snippet.json) | sing-box 1.12+ | 原生 JSON `route.rules` AI 分流参考片段 |
 
 ## 为什么需要将 Claude 支付/遥测域名与主站同出口？
@@ -31,7 +32,7 @@
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与专线架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（28 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（34 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
   - [AI 编程与大模型稳定访问（Claude / ChatGPT）](https://fanqiao.net/guide/ai-coding)
   - [OpenAI / Claude / Gemini API 本地开发与 Docker 代理](https://fanqiao.net/guide/api-proxy-dev)
@@ -41,6 +42,8 @@
   - [Loon 配置教程与 Quantumult X 替代说明](https://fanqiao.net/guide/loon-quantumultx)
   - [sing-box 1.12+ 配置指南](https://fanqiao.net/guide/sing-box)
   - [OpenWrt 软路由接入 VLESS REALITY 教程](https://fanqiao.net/guide/router-openwrt)
+  - [Discord 语音 RTC Connecting 与 Midjourney 配置](https://fanqiao.net/guide/discord-midjourney)
+  - [Telegram 机器人 @fanqiao_bot 绑定与每日签到领流量](https://fanqiao.net/guide/telegram-checkin-bot)
 - **实时节点状态与公开遥测**：<https://fanqiao.net/status>（JSON: [`status.json`](https://fanqiao.net/status.json)）
 - **最新可用地址页**：<https://fanqiao-net.github.io/>
 - **Telegram 官方公告频道**：<https://t.me/fan_qiao>

@@ -1,0 +1,51 @@
+#!name = fanqiao AI 固定出口分流
+#!desc = fanqiao·帆桥（帆桥跨境，fanqiao.net）Claude / ChatGPT / Gemini / Cursor 分流规则插件
+#!homepage = https://fanqiao.net/guide/loon-quantumultx
+#!author = fanqiao·帆桥
+
+[Rule]
+# Anthropic / Claude + 支付与风控同出口绑定
+DOMAIN-SUFFIX,claude.ai,AI 专线
+DOMAIN-SUFFIX,claude.com,AI 专线
+DOMAIN-SUFFIX,clau.de,AI 专线
+DOMAIN-SUFFIX,anthropic.com,AI 专线
+DOMAIN-SUFFIX,claudeusercontent.com,AI 专线
+DOMAIN-SUFFIX,stripe.com,AI 专线
+DOMAIN-SUFFIX,stripe.network,AI 专线
+DOMAIN-SUFFIX,stripecdn.com,AI 专线
+DOMAIN-SUFFIX,intercom.io,AI 专线
+DOMAIN-SUFFIX,intercomcdn.com,AI 专线
+DOMAIN-SUFFIX,statsigapi.net,AI 专线
+DOMAIN-SUFFIX,sentry.io,AI 专线
+DOMAIN-SUFFIX,statsig.com,AI 专线
+DOMAIN-SUFFIX,statsigcdn.com,AI 专线
+DOMAIN-SUFFIX,featuregates.org,AI 专线
+DOMAIN-SUFFIX,prodregistryv2.org,AI 专线
+
+# OpenAI / ChatGPT
+DOMAIN-SUFFIX,openai.com,AI 专线
+DOMAIN-SUFFIX,chatgpt.com,AI 专线
+DOMAIN-SUFFIX,oaistatic.com,AI 专线
+DOMAIN-SUFFIX,oaiusercontent.com,AI 专线
+DOMAIN-SUFFIX,auth0.com,AI 专线
+DOMAIN,ios.chat.openai.com,AI 专线
+
+# Google Gemini / AI Studio / NotebookLM / Grok / Perplexity / Cursor
+DOMAIN,gemini.google.com,AI 专线
+DOMAIN,aistudio.google.com,AI 专线
+DOMAIN,notebooklm.google.com,AI 专线
+DOMAIN,generativelanguage.googleapis.com,AI 专线
+DOMAIN,alkalimakersuite-pa.clients6.google.com,AI 专线
+DOMAIN,proactivebackend-pa.googleapis.com,AI 专线
+DOMAIN,robinfrontend-pa.googleapis.com,AI 专线
+DOMAIN,aisandbox-pa.googleapis.com,AI 专线
+DOMAIN-SUFFIX,gemini.google,AI 专线
+DOMAIN-SUFFIX,notebooklm.google,AI 专线
+DOMAIN-SUFFIX,deepmind.google,AI 专线
+DOMAIN-SUFFIX,ai.google.dev,AI 专线
+DOMAIN-SUFFIX,labs.google,AI 专线
+DOMAIN-SUFFIX,perplexity.ai,AI 专线
+DOMAIN-SUFFIX,x.ai,AI 专线
+DOMAIN-SUFFIX,grok.com,AI 专线
+DOMAIN-SUFFIX,cursor.com,AI 专线
+DOMAIN-SUFFIX,cursor.sh,AI 专线
