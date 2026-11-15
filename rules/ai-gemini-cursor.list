@@ -1,0 +1,23 @@
+# fanqiao·帆桥 — Gemini / Grok / Perplexity / Cursor 分流规则集
+# 适用客户端：Shadowrocket / Surge / Mihomo (Clash Verge Rev / FlClash / Clash Party)
+# 说明：完整覆盖 Gemini Web、AI Studio、NotebookLM、Gemini API 及 xAI Grok、Perplexity、Cursor 域名。
+# 官方教程：https://fanqiao.net/guide/gemini-grok
+
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh

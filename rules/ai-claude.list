@@ -1,0 +1,21 @@
+# fanqiao·帆桥 — Claude / Anthropic 分流规则集
+# 适用客户端：Shadowrocket / Surge / Mihomo (Clash Verge Rev / FlClash / Clash Party)
+# 说明：将账号认证、Stripe 付款、Intercom 客服、Statsig/Sentry 遥测与 Claude 核心域名绑定在同一固定干净出口，避免出口飘移触发风控。
+# 官方教程：https://fanqiao.net/guide/ai-coding
+
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigcdn.com
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,prodregistryv2.org

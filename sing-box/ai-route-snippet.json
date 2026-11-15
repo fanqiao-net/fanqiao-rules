@@ -1,0 +1,66 @@
+{
+  "_comment": "fanqiao·帆桥 sing-box 1.12+ AI 分流路由片段。官方订阅已内建完整分流，详见 https://fanqiao.net/guide/sing-box",
+  "route": {
+    "rules": [
+      {
+        "domain_suffix": [
+          "claude.ai",
+          "claude.com",
+          "clau.de",
+          "anthropic.com",
+          "claudeusercontent.com",
+          "stripe.com",
+          "stripe.network",
+          "stripecdn.com",
+          "intercom.io",
+          "intercomcdn.com",
+          "statsigapi.net",
+          "sentry.io",
+          "statsig.com",
+          "statsigcdn.com",
+          "featuregates.org",
+          "prodregistryv2.org"
+        ],
+        "outbound": "Claude"
+      },
+      {
+        "domain": [
+          "ios.chat.openai.com"
+        ],
+        "domain_suffix": [
+          "openai.com",
+          "chatgpt.com",
+          "oaistatic.com",
+          "oaiusercontent.com",
+          "auth0.com"
+        ],
+        "outbound": "ChatGPT"
+      },
+      {
+        "domain": [
+          "gemini.google.com",
+          "aistudio.google.com",
+          "notebooklm.google.com",
+          "generativelanguage.googleapis.com",
+          "alkalimakersuite-pa.clients6.google.com",
+          "proactivebackend-pa.googleapis.com",
+          "robinfrontend-pa.googleapis.com",
+          "aisandbox-pa.googleapis.com"
+        ],
+        "domain_suffix": [
+          "gemini.google",
+          "notebooklm.google",
+          "deepmind.google",
+          "ai.google.dev",
+          "labs.google",
+          "perplexity.ai",
+          "x.ai",
+          "grok.com",
+          "cursor.com",
+          "cursor.sh"
+        ],
+        "outbound": "AI"
+      }
+    ]
+  }
+}

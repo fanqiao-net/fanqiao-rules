@@ -1,0 +1,10 @@
+# fanqiao·帆桥 — OpenAI / ChatGPT 分流规则集
+# 适用客户端：Shadowrocket / Surge / Mihomo (Clash Verge Rev / FlClash / Clash Party)
+# 官方教程：https://fanqiao.net/guide/ai-coding
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN,ios.chat.openai.com

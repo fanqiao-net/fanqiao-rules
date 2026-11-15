@@ -1,0 +1,29 @@
+# fanqiao·帆桥 — Mihomo (Clash Verge Rev / FlClash / Clash Party) AI 分流覆盖片段
+# 说明：fanqiao.net 官方 Mihomo/Stash 订阅已内置完整分流规则；如需在自定义配置或覆写脚本中单独锁定 AI 出口，可参考以下片段。
+# 教程：https://fanqiao.net/guide/ai-coding | https://fanqiao.net/guide/clash-verge
+
+rule-providers:
+  fanqiao_ai_claude:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fanqiao-net/fanqiao-rules/main/rules/ai-claude.list"
+    path: ./ruleset/fanqiao_ai_claude.yaml
+    interval: 86400
+  fanqiao_ai_openai:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fanqiao-net/fanqiao-rules/main/rules/ai-openai.list"
+    path: ./ruleset/fanqiao_ai_openai.yaml
+    interval: 86400
+  fanqiao_ai_gemini_cursor:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/fanqiao-net/fanqiao-rules/main/rules/ai-gemini-cursor.list"
+    path: ./ruleset/fanqiao_ai_gemini_cursor.yaml
+    interval: 86400
+
+# 在 Clash Verge Rev 的「全局扩展覆写配置」中可使用 +rules 前置插入：
+rules:
+  - RULE-SET,fanqiao_ai_claude,Claude
+  - RULE-SET,fanqiao_ai_openai,ChatGPT
+  - RULE-SET,fanqiao_ai_gemini_cursor,其他 AI
