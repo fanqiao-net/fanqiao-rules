@@ -32,9 +32,13 @@
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与专线架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（34 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（38 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
   - [AI 编程与大模型稳定访问（Claude / ChatGPT）](https://fanqiao.net/guide/ai-coding)
+  - [台湾家宽原生 IP 与广播 IP 区别及解锁指南](https://fanqiao.net/guide/taiwan-native-ip)
+  - [DNS 泄露与 WebRTC 防风控排查（Fake-IP）](https://fanqiao.net/guide/dns-webrtc-leak)
+  - [GitHub SSH 443 代理与 HuggingFace 0.1x 省流指南](https://fanqiao.net/guide/github-ssh-huggingface)
+  - [Netflix、Disney+、YouTube 与巴哈姆特解锁指南](https://fanqiao.net/guide/streaming-unlock)
   - [OpenAI / Claude / Gemini API 本地开发与 Docker 代理](https://fanqiao.net/guide/api-proxy-dev)
   - [Gemini / AI Studio / Grok 线路与风控避坑](https://fanqiao.net/guide/gemini-grok)
   - [Shadowrocket 购买避坑与账号安全](https://fanqiao.net/guide/shadowrocket-buy)
