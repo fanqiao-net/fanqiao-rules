@@ -28,6 +28,7 @@
 
 ## 官方文档与入口导航
 
+- **终端连通性与分流自检脚本**：[`fanqiao-net/ai-ip-check`](https://github.com/fanqiao-net/ai-ip-check)（一行 `curl` 实测 Claude Code / ChatGPT / Gemini / Cursor 与巴哈姆特/Netflix 解锁）
 - **官网首页**：<https://fanqiao.net/>
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与专线架构**：<https://fanqiao.net/locations>
