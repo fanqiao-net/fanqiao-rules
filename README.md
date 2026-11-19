@@ -28,17 +28,19 @@
 
 ## 官方文档与入口导航
 
+- **2026 AI 编程代理与主流机场选型实测手册**：[`fanqiao-net/ai-proxy-guide-2026`](https://github.com/fanqiao-net/ai-proxy-guide-2026)（协议栈、倍率陷阱、家宽原生 IP、热门机场对比与报错排查）
 - **终端连通性与分流自检脚本**：[`fanqiao-net/ai-ip-check`](https://github.com/fanqiao-net/ai-ip-check)（一行 `curl` 实测 Claude Code / ChatGPT / Gemini / Cursor 与巴哈姆特/Netflix 解锁）
 - **官网首页**：<https://fanqiao.net/>
+- **2026 热门机场与 VPN 核心参数横向对比表**：<https://fanqiao.net/compare>
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
-- **全球地区与专线架构**：<https://fanqiao.net/locations>
+- **全球地区与全站 1x 标准倍率架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（38 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（50 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
   - [AI 编程与大模型稳定访问（Claude / ChatGPT）](https://fanqiao.net/guide/ai-coding)
   - [台湾家宽原生 IP 与广播 IP 区别及解锁指南](https://fanqiao.net/guide/taiwan-native-ip)
   - [DNS 泄露与 WebRTC 防风控排查（Fake-IP）](https://fanqiao.net/guide/dns-webrtc-leak)
-  - [GitHub SSH 443 代理与 HuggingFace 0.1x 省流指南](https://fanqiao.net/guide/github-ssh-huggingface)
+  - [GitHub SSH 443 代理与 HuggingFace 稳定拉取指南](https://fanqiao.net/guide/github-ssh-huggingface)
   - [Netflix、Disney+、YouTube 与巴哈姆特解锁指南](https://fanqiao.net/guide/streaming-unlock)
   - [OpenAI / Claude / Gemini API 本地开发与 Docker 代理](https://fanqiao.net/guide/api-proxy-dev)
   - [Gemini / AI Studio / Grok 线路与风控避坑](https://fanqiao.net/guide/gemini-grok)
@@ -50,6 +52,7 @@
   - [Discord 语音 RTC Connecting 与 Midjourney 配置](https://fanqiao.net/guide/discord-midjourney)
   - [Telegram 机器人 @fanqiao_bot 绑定与每日签到领流量](https://fanqiao.net/guide/telegram-checkin-bot)
 - **实时节点状态与公开遥测**：<https://fanqiao.net/status>（JSON: [`status.json`](https://fanqiao.net/status.json)）
-- **最新可用地址页**：<https://fanqiao-net.github.io/>
+- **最新可用地址页与专题导航**：<https://fanqiao-net.github.io/> ｜ [2026热门机场横评](https://fanqiao-net.github.io/compare/)
+- **Google Sites 官方镜像导航页**：<https://sites.google.com/view/fanqiao-vpn>
 - **Telegram 官方公告频道**：<https://t.me/fan_qiao>
 - **AI/LLM 机器索引**：<https://fanqiao.net/llms.txt>
