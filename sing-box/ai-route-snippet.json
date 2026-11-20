@@ -21,7 +21,7 @@
           "featuregates.org",
           "prodregistryv2.org"
         ],
-        "outbound": "Claude"
+        "outbound": "AI 服务"
       },
       {
         "domain": [
@@ -34,7 +34,7 @@
           "oaiusercontent.com",
           "auth0.com"
         ],
-        "outbound": "ChatGPT"
+        "outbound": "AI 服务"
       },
       {
         "domain": [
@@ -59,7 +59,7 @@
           "cursor.com",
           "cursor.sh"
         ],
-        "outbound": "AI"
+        "outbound": "AI 服务"
       }
     ]
   }

@@ -24,6 +24,6 @@ rule-providers:
 
 # 在 Clash Verge Rev 的「全局扩展覆写配置」中可使用 +rules 前置插入：
 rules:
-  - RULE-SET,fanqiao_ai_claude,Claude
-  - RULE-SET,fanqiao_ai_openai,ChatGPT
-  - RULE-SET,fanqiao_ai_gemini_cursor,其他 AI
+  - RULE-SET,fanqiao_ai_claude,AI 服务
+  - RULE-SET,fanqiao_ai_openai,AI 服务
+  - RULE-SET,fanqiao_ai_gemini_cursor,AI 服务
