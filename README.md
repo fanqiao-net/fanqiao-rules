@@ -8,7 +8,7 @@
 
 | 路径 | 适用客户端 | 用途说明 |
 |---|---|---|
-| [`shadowrocket/fanqiao-shadowrocket.conf`](shadowrocket/fanqiao-shadowrocket.conf) | Shadowrocket (iOS/iPadOS/macOS) | 帆桥官方默认托管配置，含 `Claude 专用`、`ChatGPT`、`其他 AI`、流媒体及精简广告拦截策略组 |
+| [`shadowrocket/fanqiao-shadowrocket.conf`](shadowrocket/fanqiao-shadowrocket.conf) | Shadowrocket (iOS/iPadOS/macOS) | 帆桥官方默认托管配置，含 `AI 服务`、`AI 故障转移`、`故障转移`、流媒体及精简广告拦截策略组 |
 | [`rules/ai-claude.list`](rules/ai-claude.list) | Shadowrocket / Surge / Mihomo | Claude 核心域名 + Stripe/Intercom/Statsig/Sentry 同出口绑定，降低账号风控与 403 风险 |
 | [`rules/ai-openai.list`](rules/ai-openai.list) | Shadowrocket / Surge / Mihomo | OpenAI / ChatGPT Web 与 iOS App 核心域名 |
 | [`rules/ai-gemini-cursor.list`](rules/ai-gemini-cursor.list) | Shadowrocket / Surge / Mihomo | Google Gemini、AI Studio、NotebookLM、xAI Grok、Perplexity 与 Cursor 域名 |
