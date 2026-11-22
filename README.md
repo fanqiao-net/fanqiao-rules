@@ -35,8 +35,11 @@
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与全站 1x 标准倍率架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（50 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（53 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
+  - [ChatGPT Plus 与 Claude Pro 美区礼品卡安全订阅防封号](https://fanqiao.net/guide/chatgpt-plus-claude-pro-subscribe)
+  - [Google AI Studio / NotebookLM / Antigravity 地区不支持修复](https://fanqiao.net/guide/google-ai-studio-notebooklm-fix)
+  - [TikTok 国内免拔卡换区与黑屏无网络连接修复](https://fanqiao.net/guide/tiktok-china-sim-black-screen-fix)
   - [AI 编程与大模型稳定访问（Claude / ChatGPT）](https://fanqiao.net/guide/ai-coding)
   - [台湾家宽原生 IP 与广播 IP 区别及解锁指南](https://fanqiao.net/guide/taiwan-native-ip)
   - [DNS 泄露与 WebRTC 防风控排查（Fake-IP）](https://fanqiao.net/guide/dns-webrtc-leak)
