@@ -57,7 +57,12 @@
           "x.ai",
           "grok.com",
           "cursor.com",
-          "cursor.sh"
+          "cursor.sh",
+          "cursorapi.com",
+          "cursor-cdn.com",
+          "windsurf.com",
+          "codeium.com",
+          "codeiumdata.com"
         ],
         "outbound": "AI 服务"
       }
