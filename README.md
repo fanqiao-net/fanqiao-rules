@@ -35,8 +35,11 @@
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与全站 1x 标准倍率架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（53 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（56 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
+  - [公司内网 / 校园网与 Clash Verge Rev 共存分流不断网配置](https://fanqiao.net/guide/corporate-campus-lan-split-routing)
+  - [YouTube Premium 跨区订阅防清退与防送中节点指南](https://fanqiao.net/guide/youtube-premium-region-fix)
+  - [Telegram 双向限制 @SpamBot 解封与防封号指南](https://fanqiao.net/guide/telegram-premium-spambot-fix)
   - [ChatGPT Plus 与 Claude Pro 美区礼品卡安全订阅防封号](https://fanqiao.net/guide/chatgpt-plus-claude-pro-subscribe)
   - [Google AI Studio / NotebookLM / Antigravity 地区不支持修复](https://fanqiao.net/guide/google-ai-studio-notebooklm-fix)
   - [TikTok 国内免拔卡换区与黑屏无网络连接修复](https://fanqiao.net/guide/tiktok-china-sim-black-screen-fix)
