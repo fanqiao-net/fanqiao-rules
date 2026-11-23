@@ -1,0 +1,4 @@
+theme: jekyll-theme-primer
+title: "fanqiao-rules · Shadowrocket / Mihomo / sing-box AI 固定出口分流规则库"
+description: "面向 Clash Verge Rev、Mihomo、小火箭 Shadowrocket、Loon 与 sing-box 的 Claude / ChatGPT / Gemini / Cursor 同出口防风控分流配置。"
+lang: zh-CN
