@@ -8,7 +8,7 @@
 
 | 路径 | 适用客户端 | 用途说明 |
 |---|---|---|
-| [`shadowrocket/fanqiao-shadowrocket.conf`](shadowrocket/fanqiao-shadowrocket.conf) | Shadowrocket (iOS/iPadOS/macOS) | 帆桥官方默认托管配置，含 `AI 服务`、`AI 故障转移`、`故障转移`、`帆桥影院`（默认直连免扣流量）、流媒体及精简广告拦截策略组 |
+| [`shadowrocket/fanqiao-shadowrocket.conf`](shadowrocket/fanqiao-shadowrocket.conf) | Shadowrocket (iOS/iPadOS/macOS) | 帆桥官方默认托管配置，含独立 `Claude`（同源绑定 Stripe 支付）、`AI 服务`、`AI 故障转移`、`故障转移`、`帆桥影院`（默认直连免扣流量）、流媒体及精简广告拦截策略组 |
 | [`rules/ai-claude.list`](rules/ai-claude.list) | Shadowrocket / Surge / Mihomo | Claude 核心域名 + Stripe/Intercom/Statsig/Sentry 同出口绑定，降低账号风控与 403 风险 |
 | [`rules/ai-openai.list`](rules/ai-openai.list) | Shadowrocket / Surge / Mihomo | OpenAI / ChatGPT Web 与 iOS App 核心域名 |
 | [`rules/ai-gemini-cursor.list`](rules/ai-gemini-cursor.list) | Shadowrocket / Surge / Mihomo | Google Gemini、AI Studio、NotebookLM、xAI Grok、Perplexity 与 Cursor 域名 |
@@ -35,8 +35,11 @@
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与全站 1x 标准倍率架构**：<https://fanqiao.net/locations>
 - **客户端下载指南**：<https://fanqiao.net/download>
-- **全部教程中心（57 篇）**：<https://fanqiao.net/guide>
+- **全部教程中心（60 篇）**：<https://fanqiao.net/guide>
 - **重点教程**：
+  - [Claude Code Max ($100/$200) 防封号与 MCP 远程工具分流指南](https://fanqiao.net/guide/claude-code-max-mcp-proxy)
+  - [Apple TV 4K + Infuse 8 挂载 Emby 影视库零缓冲与杜比视界教程](https://fanqiao.net/guide/apple-tv-infuse-4k-emby)
+  - [美区 Apple ID 内购 ChatGPT Plus / Claude Pro 支付失败解决指南](https://fanqiao.net/guide/chatgpt-plus-apple-giftcard-declined-fix)
   - [VLESS + XHTTP（SplitHTTP）抗封锁原理与客户端配置指南](https://fanqiao.net/guide/vless-xhttp-splithttp)
   - [公司内网 / 校园网与 Clash Verge Rev 共存分流不断网配置](https://fanqiao.net/guide/corporate-campus-lan-split-routing)
   - [YouTube Premium 跨区订阅防清退与防送中节点指南](https://fanqiao.net/guide/youtube-premium-region-fix)

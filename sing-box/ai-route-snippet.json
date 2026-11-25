@@ -17,7 +17,13 @@
           "statsigapi.net",
           "sentry.io",
           "statsig.com",
-          "statsigcdn.com",
+          "statsigcdn.com"
+        ],
+        "outbound": "Claude"
+      },
+      {
+        "domain_suffix": [
+          "sentry.io",
           "featuregates.org",
           "prodregistryv2.org"
         ],

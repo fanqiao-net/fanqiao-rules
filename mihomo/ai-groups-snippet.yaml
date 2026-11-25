@@ -22,8 +22,8 @@ rule-providers:
     path: ./ruleset/fanqiao_ai_gemini_cursor.yaml
     interval: 86400
 
-# 在 Clash Verge Rev 的「全局扩展覆写配置」中可使用 +rules 前置插入：
+# 在 Clash Verge Rev 的「全局扩展覆写配置」中可使用 +rules 前置插入（官方订阅已内置独立「Claude」与「AI 服务」策略组）：
 rules:
-  - RULE-SET,fanqiao_ai_claude,AI 服务
+  - RULE-SET,fanqiao_ai_claude,Claude
   - RULE-SET,fanqiao_ai_openai,AI 服务
   - RULE-SET,fanqiao_ai_gemini_cursor,AI 服务
