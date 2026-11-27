@@ -1,4 +1,4 @@
-# fanqiao-rules · 帆桥官方客户端分流规则与 AI 配置仓库
+# fanqiao-rules · 客户端 AI 固定出口分流规则库
 
 由 **[fanqiao·帆桥（帆桥跨境 / fanqiao.net）](https://fanqiao.net/)** 维护的开源客户端分流规则与配置片段仓库，面向 Shadowrocket（小火箭）、Mihomo（Clash Verge Rev / FlClash / Clash Party）、Stash、Loon 与 sing-box，聚焦 **AI 固定干净出口隔离**（Claude / Claude Code / ChatGPT / Gemini / NotebookLM / Grok / Cursor）与 **VLESS REALITY + 专线中转** 场景下的稳定分流。
 
