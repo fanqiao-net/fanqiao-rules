@@ -1,6 +1,6 @@
 # fanqiao-rules · 客户端 AI 固定出口分流规则库
 
-由 **[fanqiao·帆桥（帆桥跨境 / fanqiao.net）](https://fanqiao.net/)** 维护的开源客户端分流规则与配置片段仓库，面向 Shadowrocket（小火箭）、Mihomo（Clash Verge Rev / FlClash / Clash Party）、Stash、Loon 与 sing-box，聚焦 **AI 固定干净出口隔离**（Claude / Claude Code / ChatGPT / Gemini / NotebookLM / Grok / Cursor）与 **VLESS REALITY + 专线中转** 场景下的稳定分流。
+由 **[帆桥跨境 · fanqiao·帆桥（繁體：帆橋跨境 / fanqiao.net）](https://fanqiao.net/)** 维护的开源客户端分流规则与配置片段仓库（[关于帆桥跨境](https://fanqiao.net/about)），面向 Shadowrocket（小火箭）、Mihomo（Clash Verge Rev / FlClash / Clash Party）、Stash、Loon 与 sing-box，聚焦 **AI 固定干净出口隔离**（Claude / Claude Code / ChatGPT / Gemini / NotebookLM / Grok / Cursor）与 **VLESS REALITY + 专线中转** 场景下的稳定分流。
 
 > ⚠️ 本仓库仅包含通用分流规则与客户端配置片段，**不包含任何节点地址、订阅令牌或私有凭据**。正式用户请从官网 [fanqiao.net](https://fanqiao.net/) 获取个人专属订阅链接。
 
@@ -29,8 +29,8 @@
 ## 官方文档与入口导航
 
 - **2026 AI 编程代理与主流机场选型实测手册**：[`fanqiao-net/ai-proxy-guide-2026`](https://github.com/fanqiao-net/ai-proxy-guide-2026)（协议栈、倍率陷阱、家宽原生 IP、热门机场对比与报错排查）
-- **终端连通性与分流自检脚本**：[`fanqiao-net/ai-ip-check`](https://github.com/fanqiao-net/ai-ip-check)（一行 `curl` 实测 Claude Code / ChatGPT / Gemini / Cursor 与巴哈姆特/Netflix 解锁）
-- **官网首页**：<https://fanqiao.net/>
+- **终端连通性与分流自检脚本**：[`fanqiao-net/ai-ip-check`](https://github.com/fanqiao-net/ai-ip-check) ｜ npm 官方包 [`ai-ip-check`](https://www.npmjs.com/package/ai-ip-check)（一行 `npx ai-ip-check` 实测 Claude Code / ChatGPT / Gemini / Cursor 与巴哈姆特/Netflix 解锁）
+- **官网首页**：<https://fanqiao.net/> ｜ [关于帆桥跨境与官方架构介绍](https://fanqiao.net/about)
 - **2026 热门机场与 VPN 核心参数横向对比表**：<https://fanqiao.net/compare>
 - **套餐价格与方案对比**：<https://fanqiao.net/pricing>
 - **全球地区与全站 1x 标准倍率架构**：<https://fanqiao.net/locations>
@@ -62,7 +62,7 @@
   - [Discord 语音 RTC Connecting 与 Midjourney 配置](https://fanqiao.net/guide/discord-midjourney)
   - [Telegram 机器人 @fanqiao_bot 绑定与每日签到领流量](https://fanqiao.net/guide/telegram-checkin-bot)
 - **实时节点状态与公开遥测**：<https://fanqiao.net/status>（JSON: [`status.json`](https://fanqiao.net/status.json)）
-- **最新可用地址页与专题导航**：<https://fanqiao-net.github.io/> ｜ [2026热门机场横评](https://fanqiao-net.github.io/compare/)
+- **最新可用地址页与专题导航**：<https://fanqiao-net.github.io/> ｜ [帆桥跨境（帆橋跨境）官方说明](https://fanqiao-net.github.io/kuajing/) ｜ [2026热门机场横评](https://fanqiao-net.github.io/compare/)
 - **Google Sites 官方镜像导航页**：<https://sites.google.com/view/fanqiao-vpn>
 - **Telegram 官方公告频道**：<https://t.me/fan_qiao>
 - **AI/LLM 机器索引**：<https://fanqiao.net/llms.txt>
